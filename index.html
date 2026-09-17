@@ -1,0 +1,327 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BagsKart — bags and luggage sized in litres</title>
+<meta name="description" content="Bags and luggage listed by the volume they hold. Litres on every card, outside measurements next to them, and orders taken by email.">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="theme-color" content="#182A3B">
+<link rel="canonical" href="/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="BagsKart — bags and luggage sized in litres">
+<meta property="og:description" content="Bags and luggage listed by the litres they hold, ordered by email.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='9' fill='%23182A3B'/%3E%3Crect x='10' y='24' width='44' height='33' rx='6' fill='%23F26430'/%3E%3Crect x='21' y='8' width='22' height='19' rx='8' fill='%23F3F0EA'/%3E%3Crect x='26' y='12' width='12' height='10' rx='5' fill='%23182A3B'/%3E%3C/svg%3E">
+<style>:root{--ink:#182A3B;--p2:#EFE9E0;--mu:#4E5963;--ac:#F26430;--at:#9C3405;--on:#F3F0EA;--onm:#B9C6D2;--ru:#D9D1C5;--mono:ui-monospace,'SF Mono',Menlo,Consolas,monospace}*{box-sizing:border-box}body{margin:0;background:#F6F3EE;color:#2A3742;font:17px/1.6 'Avenir Next','Segoe UI',Roboto,Helvetica,Arial,sans-serif}img{max-width:100%;height:auto;display:block}a{color:var(--at)}h1,h2,h3{line-height:1.12;margin:0 0 .5em;font-weight:800}h1{font-size:clamp(2rem,4.4vw,3.3rem)}h2{font-size:clamp(1.5rem,2.5vw,2.2rem)}h3{font-size:1.1rem;font-weight:700}h2 small,.kick{display:block;font:700 .74rem/1.4 var(--mono);letter-spacing:.2em;text-transform:uppercase;color:var(--at);margin-bottom:.6rem}.kick{color:#F9A183}p{margin:0 0 1em}[id]{scroll-margin-top:7rem}[hidden],.bk-off{display:none!important}.wrap{width:min(1180px,calc(100% - 2rem));margin-inline:auto}.bk-sr,.hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}.top{position:sticky;top:0;z-index:9;background:var(--ink);color:var(--on);border-bottom:3px solid var(--ac)}.bar{display:flex;align-items:center;flex-wrap:wrap;gap:.3rem 1rem;padding:.6rem 0}.logo{font-weight:800;font-size:1.3rem;color:var(--on);text-decoration:none}.logo b{color:#F9A183}.nav{order:3;flex:1 0 100%;display:flex;flex-wrap:wrap;gap:0 1.1rem}.nav a{color:var(--onm);text-decoration:none;font-size:.9rem;padding:.3rem 0}.trolley{margin-left:auto}#bk-howmany{background:#0E1A25;color:var(--on);border-radius:99px;padding:.1rem .5rem;font:700 .8rem var(--mono)}.note{background:#0E1A25;color:var(--onm);font-size:.85rem;padding:.5rem 0}.hero{background:var(--ink);color:var(--on);padding:3rem 0}.hg{display:grid;gap:2.2rem}.hero h1{color:var(--on)}.lede{font-size:1.12rem;color:var(--onm)}.cta{display:flex;gap:.8rem;flex-wrap:wrap}.btn,.send,.trolley{display:inline-block;background:var(--ac);color:#0E1A25;font-weight:700;font-size:1rem;text-decoration:none;padding:.7rem 1.4rem;border:0;border-radius:2px;cursor:pointer}.ghost,.btn2{display:inline-block;border:2px solid var(--onm);color:var(--on);font-weight:700;text-decoration:none;padding:.6rem 1.3rem;border-radius:2px}.btn2{border-color:var(--ru);color:var(--at);margin:.2rem}.box{border-radius:3px;background:#20364A;padding:1.5rem}.box p{font-size:.85rem;color:var(--onm)}.chart{list-style:none;margin:0;padding:0;font-size:.85rem;color:var(--onm)}.chart li{margin-bottom:.8rem}.chart b{font:800 1rem var(--mono);color:#F9A183;margin-right:.6rem}.chart span,.tag span{display:block;position:relative;overflow:hidden;border-radius:9px;background:var(--p2)}.chart span{height:1rem;margin-top:.3rem;background:#22384C;border-radius:2px}.chart span::after,.tag span::after{content:"";position:absolute;inset:0;width:var(--f);background:var(--ac);border-radius:inherit}.band{padding:2.8rem 0}.alt{background:var(--p2)}.intro{max-width:64ch;color:var(--mu);margin-bottom:1.6rem}.group+.group{margin-top:2.8rem}.shelf{list-style:none;margin:0;padding:0;display:grid;gap:.9rem}.bk-ware,.sums,.bk-empty,.bk-stub,.bk-sline{background:#fff;border:1px solid var(--ru);border-radius:3px}.bk-ware{position:relative;padding:.9rem .9rem .9rem 1.6rem;display:grid;grid-template-columns:4.4rem minmax(0,1fr);grid-template-areas:"tag tag" "shot body" "buy buy";gap:.5rem .9rem;align-items:center}.bk-ware::before{content:"";position:absolute;left:.5rem;top:50%;transform:translateY(-50%);width:9px;height:9px;border-radius:50%;background:#F6F3EE;border:1px solid var(--ru)}.tag{grid-area:tag;border-bottom:2px dashed var(--ru);padding-bottom:.55rem;font:.74rem/1.5 var(--mono);color:var(--mu)}.tag b{display:block;font-size:1.3rem;line-height:1;color:var(--at)}.tag span{height:.5rem;margin:.4rem 0}.bk-ware img{grid-area:shot;width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:2px;background:var(--p2)}.body{grid-area:body;min-width:0}.bk-label{margin:0 0 .3rem}.body p{margin:0;font-size:.92rem;color:var(--mu);line-height:1.45}.buy{grid-area:buy;display:flex;align-items:center;justify-content:space-between;gap:.8rem;border-top:1px solid var(--ru);padding-top:.6rem}.bk-rate{font:800 1.25rem var(--mono);white-space:nowrap}.bk-pick,.bk-remove,.bk-pieces{min-height:2.5rem}.bk-pick{font-family:inherit;font-weight:700;font-size:.9rem;background:var(--ink);color:var(--on);border:0;border-radius:2px;padding:.55rem .95rem;cursor:pointer;white-space:nowrap}.bk-pick:hover{background:var(--ac);color:#0E1A25}.bk-pick[data-added="1"]{background:var(--at);color:#fff}.prose{max-width:72ch}.bk-empty{border-style:dashed;padding:1.8rem 1.4rem;text-align:center}.bk-stub,.bk-sline{display:grid;grid-template-columns:4rem minmax(0,1fr);gap:.6rem .9rem;align-items:center;padding:.8rem;margin-bottom:.7rem}.bk-stub img,.bk-sline img{width:64px;height:80px;object-fit:cover}.bk-stub-name{font-weight:700;margin:0 0 .15rem}.bk-stub-meta{font-size:.86rem;color:var(--mu);margin:0}.bk-stub-end{grid-column:1/-1;display:flex;align-items:center;gap:.8rem;flex-wrap:wrap}.bk-line{font:800 1.05rem var(--mono);margin-left:auto}.bk-remove{background:none;border:1px solid var(--ru);border-radius:2px;color:var(--at);font:inherit;font-size:.85rem;padding:.3rem .65rem;cursor:pointer}.sums{padding:1.1rem 1.3rem;margin-top:1rem}.row{display:flex;justify-content:space-between;gap:1rem;padding:.35rem 0}.grand{border-top:2px solid var(--ink);margin-top:.4rem;padding-top:.7rem}#bk-all,#bk-order-total{font:800 1.6rem var(--mono)}.duo{display:grid;gap:2rem}.form{display:grid;grid-template-columns:1fr 1fr;gap:1rem}.f{display:flex;flex-direction:column;gap:.3rem;margin:0}.wide{grid-column:1/-1}.f label{font:700 .78rem var(--mono);letter-spacing:.05em;text-transform:uppercase}.f input,.f textarea,.bk-pieces{font:inherit;padding:.5rem .6rem;border:1px solid var(--ru);border-radius:2px;background:#fff;color:#2A3742;width:100%}.bk-pieces{width:4.2rem}.send{grid-column:1/-1;justify-self:start}.small{font-size:.88rem;color:var(--mu)}.sent{background:#fff}.foot{background:var(--ink);color:var(--onm);padding:2.2rem 0;font-size:.9rem}.foot a{color:#F9A183}.foot summary{cursor:pointer;font-weight:700;color:var(--on)}@media(min-width:760px){.bar{flex-wrap:nowrap}.nav{order:0;flex:0 1 auto;margin-left:auto;justify-content:flex-end}.trolley{margin-left:0;flex:none}.hg{grid-template-columns:1.05fr .95fr;align-items:center}.bk-ware{grid-template-columns:8.2rem 4.4rem minmax(0,1fr) auto;grid-template-areas:"tag shot body buy";gap:0 1.1rem;padding:.8rem 1rem .8rem 1.6rem}.tag{border-bottom:0;border-right:2px dashed var(--ru);padding:0 1rem 0 0;align-self:stretch;display:flex;flex-direction:column;justify-content:center}.buy{flex-direction:column;align-items:flex-end;border:0;padding:0}.cols{columns:2;column-gap:2.6rem}.duo{grid-template-columns:1fr 1.1fr;align-items:start}.bk-stub,.bk-sline{grid-template-columns:4rem minmax(0,1fr) auto}.bk-stub-end{grid-column:auto}}</style>
+</head>
+<body>
+<header class="top">
+<div class="wrap bar">
+<a class="logo" href="#top">Bags<b>Kart</b></a>
+<nav class="nav" aria-label="Shop sections"><a href="#cabin">Cabin &amp; check-in</a><a href="#backpacks">Backpacks</a><a href="#handbags">Handbags &amp; totes</a><a href="#guide">Litres, not inches</a><a href="#ordering">Ordering &amp; returns</a><a href="#checkout">Order</a></nav>
+<a class="trolley" href="#cart">Trolley <span id="bk-howmany" aria-live="polite">0</span><span class="bk-sr"> items</span></a>
+</div>
+</header>
+<div class="note"><div class="wrap">Every bag on this site is listed by the volume it holds in litres. We take orders by email and nothing is charged here.</div></div>
+<main>
+<section id="bk-sent" class="band sent" hidden><div class="wrap prose">
+<h2>That has reached us</h2>
+<p>Your order request is in our mailbox. Nothing has been charged and nothing will be until you have seen a total and agreed to it.</p>
+<p>We check each bag against stock, work out the delivery figure for your postcode and add it up — a few hours, never more than three working days. One email comes back listing the bags, the price each, the delivery figure and the total, and how to settle it; reply to it to go ahead or to change the order. If it does not arrive, look in the spam folder first, then write to <a href="mailto:orders@bagskart.com">orders@bagskart.com</a>.</p>
+<p>Whatever you picked stayed put in this browser — <a href="#cart">take another look at it</a>, or go back out to the <a href="#cabin">shelves</a>.</p>
+</div></section>
+<section class="hero" id="top"><div class="wrap hg">
+<div>
+<p class="kick">Bags &amp; luggage · USA</p>
+<h1>Bags sized by what goes in them</h1>
+<p class="lede">Most bag shops sell you a length, a width and a height, and leave you to work out whether your things will fit. We print the volume in litres on every card, because litres are the only number that answers the question you actually have.</p>
+<p class="cta"><a class="btn" href="#cabin">Start with cabin sizes</a><a class="ghost" href="#guide">How litres are measured</a></p>
+</div>
+<div class="box"><p>Five sizes off our own shelves, drawn to scale against the biggest bag we stock</p>
+<ul class="chart">
+<li><b>5 L</b>A slim crossbody. Phone, wallet, keys.<span style="--f:6%"></span></li>
+<li><b>20 L</b>A cabin daypack. One working day.<span style="--f:21%"></span></li>
+<li><b>38 L</b>A cabin case. Four days of shirts.<span style="--f:40%"></span></li>
+<li><b>44 L</b>A weekend holdall, packed flat.<span style="--f:46%"></span></li>
+<li><b>96 L</b>The trunk. A move, not a trip.<span style="--f:100%"></span></li>
+</ul></div>
+</div></section>
+<section class="band" id="shop"><div class="wrap">
+<div class="group"><h2 id="cabin"><small>Shelf one</small>Cabin and check-in</h2><p class="intro">Twenty litres to ninety-six, in soft shells, hard shells and one trunk with no wheels at all. Every tag gives the volume first and the packed outside measurement second, because those two numbers answer different questions.</p><ul class="shelf"><li class="bk-ware" style="--f:40%"><div class="tag"><b>38 L</b><span></span>55 × 36 × 23 cm<br>2.9 kg empty</div><img src="https://shop-cdn.misc-e60a.workers.dev/bagskart/red-cabin-trolley.webp" alt="Red soft-shell cabin trolley standing on a polished floor with its telescopic handle up" width="460" height="575" decoding="async"><div class="body"><h3 class="bk-label">Crimson Soft-Shell Cabin Trolley</h3><p>Four wheels, one outside pocket, and a lid that stays flat when you stand it up to pack.</p></div><div class="buy"><span class="bk-rate">$59.99</span><button class="bk-pick" data-sku="bk-c1" data-name="Crimson Soft-Shell Cabin Trolley" data-price="5999" data-img="https://shop-cdn.misc-e60a.workers.dev/bagskart/red-cabin-trolley.webp" data-vol="38" data-alt="Red soft-shell cabin trolley standing on a polished floor with its telescopic handle up">Add to trolley</button></div></li><li class="bk-ware" style="--f:85%"><div class="tag"><b>82 L</b><span></span>72 × 47 × 30 cm<br>4.1 kg empty</div><img src="https://shop-cdn.misc-e60a.workers.dev/bagskart/lime-softside.webp" alt="Olive soft-side case with a double zip running the length of the lid" width="460" height="575" decoding="async"><div class="body"><h3 class="bk-label">Olive Zip-Round Check-In Case</h3><p>The long double zip opens the whole lid, so you load it like a box rather than a bucket.</p></div><div class="buy"><span class="bk-rate">$79.99</span><button class="bk-pick" data-sku="bk-c2" data-name="Olive Zip-Round Check-In Case" data-price="7999" data-img="https://shop-cdn.misc-e60a.workers.dev/bagskart/lime-softside.webp" data-vol="82" data-alt="Olive soft-side case with a double zip running the length of the lid">Add to trolley</button></div></li><li class="bk-ware" style="--f:35%"><div class="tag"><b>34 L</b><span></span>54 × 35 × 21 cm<br>2.6 kg empty</div><img src="https://shop-cdn.misc-e60a.workers.dev/bagskart/grey-soft-panel.webp" alt="Padded grey panel of a soft case, with piped edges and a long zip" width="380" height="475" loading="lazy" decoding="async"><div class="body"><h3 class="bk-label">Charcoal Padded Cabin Case</h3><p>Padded front panel over a flat sleeve, for the trip where the laptop goes on top of everything else.</p></div><div class="buy"><span class="bk-rate">$54.99</span><button class="bk-pick" data-sku="bk-c3" data-name="Charcoal Padded Cabin Case" data-price="5499" data-img="https://shop-cdn.misc-e60a.workers.dev/bagskart/grey-soft-panel.webp" data-vol="34" data-alt="Padded grey panel of a soft case, with piped edges and a long zip">Add to trolley</button></div></li><li class="bk-ware" style="--f:100%"><div class="tag"><b>96 L</b><span></span>78 × 46 × 32 cm<br>6.4 kg empty</div><img src="https://shop-cdn.misc-e60a.workers.dev/bagskart/trunk-lock-detail.webp" alt="Brass lock plate and riveted corner cap on an old fibre trunk" width="320" height="400" loading="lazy" decoding="async"><div class="body"><h3 class="bk-label">Brass-Lock Fibre Trunk</h3><p>A rigid box with riveted corners.</p></div><div class="buy"><span class="bk-rate">$98.99</span><button class="bk-pick" data-sku="bk-c4" data-name="Brass-Lock Fibre Trunk" data-price="9899" data-img="https://shop-cdn.misc-e60a.workers.dev/bagskart/trunk-lock-detail.webp" data-vol="96" data-alt="Brass lock plate and riveted corner cap on an old fibre trunk">Add to trolley</button></div></li><li class="bk-ware" style="--f:46%"><div class="tag"><b>44 L</b><span></span>56 × 30 × 27 cm<br>1.8 kg empty</div><img src="https://shop-cdn.misc-e60a.workers.dev/bagskart/black-holdall.webp" alt="Black leather holdall slumped on a row of terminal seats" width="400" height="500" loading="lazy" decoding="async"><div class="body"><h3 class="bk-label">Black Leather Weekend Holdall</h3><p>One deep barrel with a rolled handle.</p></div><div class="buy"><span class="bk-rate">$74.99</span><button class="bk-pick" data-sku="bk-c5" data-name="Black Leather Weekend Holdall" data-price="7499" data-img="https://shop-cdn.misc-e60a.workers.dev/bagskart/black-holdall.webp" data-vol="44" data-alt="Black leather holdall slumped on a row of terminal seats">Add to trolley</button></div></li><li class="bk-ware" style="--f:38%"><div class="tag"><b>36 L</b><span></span>52 × 29 × 25 cm<br>1.6 kg empty</div><img src="https://shop-cdn.misc-e60a.workers.dev/bagskart/leather-grain-tile.webp" alt="Black pebbled leather, photographed close enough to count the grain" width="330" height="412" loading="lazy" decoding="async"><div class="body"><h3 class="bk-label">Pebbled Leather Cabin Duffel</h3><p>Grained hide that scuffs rather than tears, with a full-length zip and a shoulder strap that unclips.</p></div><div class="buy"><span class="bk-rate">$64.99</span><button class="bk-pick" data-sku="bk-c6" data-name="Pebbled Leather Cabin Duffel" data-price="6499" data-img="https://shop-cdn.misc-e60a.workers.dev/bagskart/leather-grain-tile.webp" data-vol="36" data-alt="Black pebbled leather, photographed close enough to count the grain">Add to trolley</button></div></li><li class="bk-ware" style="--f:36%"><div class="tag"><b>35 L</b><span></span>50 × 32 × 22 cm<br>1.2 kg empty</div><img src="https://shop-cdn.misc-e60a.workers.dev/bagskart/rucksack-worn.webp" alt="Olive canvas rucksack worn on one shoulder in open scrubland" width="500" height="625" loading="lazy" decoding="async"><div class="body"><h3 class="bk-label">Olive Canvas Cabin Rucksack</h3><p>Cabin volume you wear.</p></div><div class="buy"><span class="bk-rate">$39.99</span><button class="bk-pick" data-sku="bk-c7" data-name="Olive Canvas Cabin Rucksack" data-price="3999" data-img="https://shop-cdn.misc-e60a.workers.dev/bagskart/rucksack-worn.webp" data-vol="35" data-alt="Olive canvas rucksack worn on one shoulder in open scrubland">Add to trolley</button></div></li><li class="bk-ware" style="--f:21%"><div class="tag"><b>20 L</b><span></span>44 × 28 × 17 cm<br>0.9 kg empty</div><img src="https://shop-cdn.misc-e60a.workers.dev/bagskart/waxed-rucksack.webp" alt="A small waxed cotton flap rucksack worn high on the shoulders, brass rivets on the pocket" width="330" height="412" loading="lazy" decoding="async"><div class="body"><h3 class="bk-label">Waxed Cotton Cabin Daypack</h3><p>The small bag that goes under the seat while the big one goes overhead.</p></div><div class="buy"><span class="bk-rate">$31.99</span><button class="bk-pick" data-sku="bk-c8" data-name="Waxed Cotton Cabin Daypack" data-price="3199" data-img="https://shop-cdn.misc-e60a.workers.dev/bagskart/waxed-rucksack.webp" data-vol="20" data-alt="A small waxed cotton flap rucksack worn high on the shoulders, brass rivets on the pocket">Add to trolley</button></div></li></ul></div><div class="group"><h2 id="backpacks"><small>Shelf two</small>Backpacks</h2><p class="intro">Ten litres to thirty-five. A backpack is the one bag whose size you feel in your shoulders all day, so the volume matters less than what you are willing to carry at that volume.</p><ul class="shelf"><li class="bk-ware" style="--f:29%"><div class="tag"><b>28 L</b><span></span>46 × 30 × 20 cm<br>1.1 kg empty</div><img src="https://shop-cdn.misc-e60a.workers.dev/bagskart/olive-rucksack.webp" alt="Olive canvas flap rucksack with a steel ring and leather drawcord tabs" width="400" height="500" loading="lazy" decoding="async"><div class="body"><h3 class="bk-label">Olive Canvas Flap Rucksack</h3><p>Drawcord neck under a buckled flap.</p></div><div class="buy"><span class="bk-rate">$35.99</span><button class="bk-pick" data-sku="bk-p1" data-name="Olive Canvas Flap Rucksack" data-price="3599" data-img="https://shop-cdn.misc-e60a.workers.dev/bagskart/olive-rucksack.webp" data-vol="28" data-alt="Olive canvas flap rucksack with a steel ring and leather drawcord tabs">Add to trolley</button></div></li><li class="bk-ware" style="--f:25%"><div class="tag"><b>24 L</b><span></span>44 × 29 × 18 cm<br>1.3 kg empty</div><img src="https://shop-cdn.misc-e60a.workers.dev/bagskart/canvas-rucksack-flat.webp" alt="Canvas rucksack with a leather flap and drawcord neck, laid on a black surface" width="380" height="475" loading="lazy" decoding="async"><div class="body"><h3 class="bk-label">Canvas and Leather Flap Rucksack</h3><p>Cotton canvas body, leather flap and base.</p></div><div class="buy"><span class="bk-rate">$45.99</span><button class="bk-pick" data-sku="bk-p2" data-name="Canvas and Leather Flap Rucksack" data-price="4599" data-img="https://shop-cdn.misc-e60a.workers.dev/bagskart/canvas-rucksack-flat.webp" data-vol="24" data-alt="Canvas rucksack with a leather flap and drawcord neck, laid on a black surface">Add to trolley</button></div></li><li class="bk-ware" style="--f:10%"><div class="tag"><b>10 L</b><span></span>38 × 22 × 12 cm<br>0.7 kg empty</div><img src="https://shop-cdn.misc-e60a.workers.dev/bagskart/holdall-handles.webp" alt="Rolled leather handles and the soft top seam of a black holdall" width="240" height="300" loading="lazy" decoding="async"><div class="body"><h3 class="bk-label">Black Leather Sling Pack</h3><p>One strap across the back.</p></div><div class="buy"><span class="bk-rate">$28.99</span><button class="bk-pick" data-sku="bk-p3" data-name="Black Leather Sling Pack" data-price="2899" data-img="https://shop-cdn.misc-e60a.workers.dev/bagskart/holdall-handles.webp" data-vol="10" data-alt="Rolled leather handles and the soft top seam of a black holdall">Add to trolley</button></div></li><li class="bk-ware" style="--f:17%"><div class="tag"><b>16 L</b><span></span>40 × 27 × 15 cm<br>1.4 kg empty</div><img src="https://shop-cdn.misc-e60a.workers.dev/bagskart/leather-grain-tile.webp" alt="Black pebbled leather, photographed close enough to count the grain" width="330" height="412" loading="lazy" decoding="async"><div class="body"><h3 class="bk-label">Pebbled Leather Backpack</h3><p>A quiet leather pack that reads as a bag rather than as kit.</p></div><div class="buy"><span class="bk-rate">$68.99</span><button class="bk-pick" data-sku="bk-p4" data-name="Pebbled Leather Backpack" data-price="6899" data-img="https://shop-cdn.misc-e60a.workers.dev/bagskart/leather-grain-tile.webp" data-vol="16" data-alt="Black pebbled leather, photographed close enough to count the grain">Add to trolley</button></div></li><li class="bk-ware" style="--f:23%"><div class="tag"><b>22 L</b><span></span>43 × 28 × 18 cm<br>0.8 kg empty</div><img src="https://shop-cdn.misc-e60a.workers.dev/bagskart/zip-pull-detail.webp" alt="Two zip pulls and their tape on olive woven case fabric" width="400" height="500" loading="lazy" decoding="async"><div class="body"><h3 class="bk-label">Olive Canvas Zip Daypack</h3><p>Two-way zip round three sides, so it opens flat on a bed and packs like a small case.</p></div><div class="buy"><span class="bk-rate">$26.99</span><button class="bk-pick" data-sku="bk-p5" data-name="Olive Canvas Zip Daypack" data-price="2699" data-img="https://shop-cdn.misc-e60a.workers.dev/bagskart/zip-pull-detail.webp" data-vol="22" data-alt="Two zip pulls and their tape on olive woven case fabric">Add to trolley</button></div></li><li class="bk-ware" style="--f:15%"><div class="tag"><b>14 L</b><span></span>38 × 26 × 14 cm<br>1.2 kg empty</div><img src="https://shop-cdn.misc-e60a.workers.dev/bagskart/buckle-macro.webp" alt="Brushed steel roller buckle on a black leather strap" width="320" height="400" loading="lazy" decoding="async"><div class="body"><h3 class="bk-label">Steel-Buckle Leather Daypack</h3><p>Roller buckles on the closing straps rather than clips, so the flap tightens down as the load shrinks.</p></div><div class="buy"><span class="bk-rate">$61.99</span><button class="bk-pick" data-sku="bk-p6" data-name="Steel-Buckle Leather Daypack" data-price="6199" data-img="https://shop-cdn.misc-e60a.workers.dev/bagskart/buckle-macro.webp" data-vol="14" data-alt="Brushed steel roller buckle on a black leather strap">Add to trolley</button></div></li><li class="bk-ware" style="--f:22%"><div class="tag"><b>21 L</b><span></span>44 × 30 × 16 cm<br>1.0 kg empty</div><img src="https://shop-cdn.misc-e60a.workers.dev/bagskart/case-corner-detail.webp" alt="Piped corner of a grey padded case above a folded shirt" width="300" height="375" loading="lazy" decoding="async"><div class="body"><h3 class="bk-label">Padded Grey Laptop Backpack</h3><p>A padded back sleeve and a slim main space.</p></div><div class="buy"><span class="bk-rate">$37.99</span><button class="bk-pick" data-sku="bk-p7" data-name="Padded Grey Laptop Backpack" data-price="3799" data-img="https://shop-cdn.misc-e60a.workers.dev/bagskart/case-corner-detail.webp" data-vol="21" data-alt="Piped corner of a grey padded case above a folded shirt">Add to trolley</button></div></li><li class="bk-ware" style="--f:19%"><div class="tag"><b>18 L</b><span></span>42 × 27 × 16 cm<br>0.9 kg empty</div><img src="https://shop-cdn.misc-e60a.workers.dev/bagskart/waxed-rucksack.webp" alt="A small waxed cotton flap rucksack worn high on the shoulders, brass rivets on the pocket" width="330" height="412" loading="lazy" decoding="async"><div class="body"><h3 class="bk-label">Waxed Cotton Day Rucksack</h3><p>Waxed cotton sheds a shower and marks where it folds.</p></div><div class="buy"><span class="bk-rate">$32.99</span><button class="bk-pick" data-sku="bk-p8" data-name="Waxed Cotton Day Rucksack" data-price="3299" data-img="https://shop-cdn.misc-e60a.workers.dev/bagskart/waxed-rucksack.webp" data-vol="18" data-alt="A small waxed cotton flap rucksack worn high on the shoulders, brass rivets on the pocket">Add to trolley</button></div></li></ul></div><div class="group"><h2 id="handbags"><small>Shelf three</small>Handbags and totes</h2><p class="intro">Five litres to fifteen. At this end of the scale a two-litre difference is the difference between a bag that takes a tablet and one that does not, which is exactly why we print the number.</p><ul class="shelf"><li class="bk-ware" style="--f:12%"><div class="tag"><b>12 L</b><span></span>34 × 28 × 16 cm<br>0.8 kg empty</div><img src="https://shop-cdn.misc-e60a.workers.dev/bagskart/black-holdall.webp" alt="Black leather holdall slumped on a row of terminal seats" width="400" height="500" loading="lazy" decoding="async"><div class="body"><h3 class="bk-label">Soft Leather Bucket Tote</h3><p>Unlined at the sides so it slumps around what is in it.</p></div><div class="buy"><span class="bk-rate">$63.99</span><button class="bk-pick" data-sku="bk-t1" data-name="Soft Leather Bucket Tote" data-price="6399" data-img="https://shop-cdn.misc-e60a.workers.dev/bagskart/black-holdall.webp" data-vol="12" data-alt="Black leather holdall slumped on a row of terminal seats">Add to trolley</button></div></li><li class="bk-ware" style="--f:9%"><div class="tag"><b>9 L</b><span></span>30 × 22 × 12 cm<br>0.6 kg empty</div><img src="https://shop-cdn.misc-e60a.workers.dev/bagskart/leather-grain-tile.webp" alt="Black pebbled leather, photographed close enough to count the grain" width="330" height="412" loading="lazy" decoding="async"><div class="body"><h3 class="bk-label">Pebbled Leather Shoulder Bag</h3><p>Nine litres is a tablet, a folded scarf and the usual pocket things.</p></div><div class="buy"><span class="bk-rate">$48.99</span><button class="bk-pick" data-sku="bk-t2" data-name="Pebbled Leather Shoulder Bag" data-price="4899" data-img="https://shop-cdn.misc-e60a.workers.dev/bagskart/leather-grain-tile.webp" data-vol="9" data-alt="Black pebbled leather, photographed close enough to count the grain">Add to trolley</button></div></li><li class="bk-ware" style="--f:7%"><div class="tag"><b>7 L</b><span></span>28 × 21 × 10 cm<br>0.7 kg empty</div><img src="https://shop-cdn.misc-e60a.workers.dev/bagskart/flap-hardware-detail.webp" alt="Leather flap, zip pocket and buckle strap on a canvas bag, lit from above" width="280" height="350" loading="lazy" decoding="async"><div class="body"><h3 class="bk-label">Buckle-Flap Leather Satchel</h3><p>A flap you unbuckle rather than a zip you pull.</p></div><div class="buy"><span class="bk-rate">$53.99</span><button class="bk-pick" data-sku="bk-t3" data-name="Buckle-Flap Leather Satchel" data-price="5399" data-img="https://shop-cdn.misc-e60a.workers.dev/bagskart/flap-hardware-detail.webp" data-vol="7" data-alt="Leather flap, zip pocket and buckle strap on a canvas bag, lit from above">Add to trolley</button></div></li><li class="bk-ware" style="--f:6%"><div class="tag"><b>5 L</b><span></span>24 × 17 × 8 cm<br>0.4 kg empty</div><img src="https://shop-cdn.misc-e60a.workers.dev/bagskart/buckle-macro.webp" alt="Brushed steel roller buckle on a black leather strap" width="320" height="400" loading="lazy" decoding="async"><div class="body"><h3 class="bk-label">Slim Crossbody with Steel Buckle</h3><p>The strap adjusts through a roller buckle from hip height to across the chest.</p></div><div class="buy"><span class="bk-rate">$30.99</span><button class="bk-pick" data-sku="bk-t4" data-name="Slim Crossbody with Steel Buckle" data-price="3099" data-img="https://shop-cdn.misc-e60a.workers.dev/bagskart/buckle-macro.webp" data-vol="5" data-alt="Brushed steel roller buckle on a black leather strap">Add to trolley</button></div></li><li class="bk-ware" style="--f:8%"><div class="tag"><b>8 L</b><span></span>27 × 20 × 15 cm<br>1.1 kg empty</div><img src="https://shop-cdn.misc-e60a.workers.dev/bagskart/trunk-lock-detail.webp" alt="Brass lock plate and riveted corner cap on an old fibre trunk" width="320" height="400" loading="lazy" decoding="async"><div class="body"><h3 class="bk-label">Brass-Clasp Vanity Case</h3><p>Rigid sides, a mirror in the lid and a clasp that shuts with a knock.</p></div><div class="buy"><span class="bk-rate">$43.99</span><button class="bk-pick" data-sku="bk-t5" data-name="Brass-Clasp Vanity Case" data-price="4399" data-img="https://shop-cdn.misc-e60a.workers.dev/bagskart/trunk-lock-detail.webp" data-vol="8" data-alt="Brass lock plate and riveted corner cap on an old fibre trunk">Add to trolley</button></div></li><li class="bk-ware" style="--f:16%"><div class="tag"><b>15 L</b><span></span>36 × 30 × 14 cm<br>0.5 kg empty</div><img src="https://shop-cdn.misc-e60a.workers.dev/bagskart/zip-pull-detail.webp" alt="Two zip pulls and their tape on olive woven case fabric" width="400" height="500" loading="lazy" decoding="async"><div class="body"><h3 class="bk-label">Olive Canvas Zip Tote</h3><p>Canvas, one zip, two handles.</p></div><div class="buy"><span class="bk-rate">$19.99</span><button class="bk-pick" data-sku="bk-t6" data-name="Olive Canvas Zip Tote" data-price="1999" data-img="https://shop-cdn.misc-e60a.workers.dev/bagskart/zip-pull-detail.webp" data-vol="15" data-alt="Two zip pulls and their tape on olive woven case fabric">Add to trolley</button></div></li><li class="bk-ware" style="--f:11%"><div class="tag"><b>11 L</b><span></span>38 × 27 × 11 cm<br>0.7 kg empty</div><img src="https://shop-cdn.misc-e60a.workers.dev/bagskart/grey-soft-panel.webp" alt="Padded grey panel of a soft case, with piped edges and a long zip" width="380" height="475" loading="lazy" decoding="async"><div class="body"><h3 class="bk-label">Padded Grey Laptop Tote</h3><p>Flat, padded and handled.</p></div><div class="buy"><span class="bk-rate">$27.99</span><button class="bk-pick" data-sku="bk-t7" data-name="Padded Grey Laptop Tote" data-price="2799" data-img="https://shop-cdn.misc-e60a.workers.dev/bagskart/grey-soft-panel.webp" data-vol="11" data-alt="Padded grey panel of a soft case, with piped edges and a long zip">Add to trolley</button></div></li><li class="bk-ware" style="--f:10%"><div class="tag"><b>10 L</b><span></span>32 × 24 × 13 cm<br>0.6 kg empty</div><img src="https://shop-cdn.misc-e60a.workers.dev/bagskart/waxed-rucksack.webp" alt="A small waxed cotton flap rucksack worn high on the shoulders, brass rivets on the pocket" width="330" height="412" loading="lazy" decoding="async"><div class="body"><h3 class="bk-label">Waxed Cotton Field Bag</h3><p>A long strap, a stiff flap and two outside pockets that take a water bottle each.</p></div><div class="buy"><span class="bk-rate">$25.99</span><button class="bk-pick" data-sku="bk-t8" data-name="Waxed Cotton Field Bag" data-price="2599" data-img="https://shop-cdn.misc-e60a.workers.dev/bagskart/waxed-rucksack.webp" data-vol="10" data-alt="A small waxed cotton flap rucksack worn high on the shoulders, brass rivets on the pocket">Add to trolley</button></div></li></ul></div>
+</div></section>
+<section class="band alt"><div class="wrap">
+<h2 id="guide"><small>The guide</small>Litres, not inches</h2>
+<div class="prose cols">
+<p>Outside dimensions tell you whether a bag will slide into a sizer, and almost nothing about whether four days of clothes will go in it. Volume is the number that survives.</p>
+<p>Every bag is filled with sealed one-litre bags of rice, packed the way an ordinary person packs, the lid closed without force, and the count rounded down to the whole litre. To size a bag you own, multiply the inside length, width and depth in centimetres and divide by one thousand.</p>
+<p>Five to eight litres is pocket contents plus one object. Nine to twelve takes a tablet flat. Fourteen to twenty-two is a working day. Above ninety you are moving, not travelling.</p>
+</div>
+</div></section>
+<section class="band"><div class="wrap">
+<h2 id="ordering"><small>How it works</small>Ordering, delivery and returns</h2>
+<div class="prose cols">
+<p>The trolley is a list held in your own browser; nothing travels while you browse. The order form writes it out as plain text, one line per bag, and FormSubmit forwards it with your name, email and address to our mailbox. No account, nothing parked on a server.</p>
+<p>A person answers by email, usually inside one working day and never past the third, confirming stock, pricing delivery for your postcode and giving a total. Nothing is charged before that.</p>
+<p>We ship within the United States only, by courier, to a street address. Fourteen days from arrival to send a bag back unused and tagged. We do not repair, fit, personalise or offer credit.</p>
+</div>
+</div></section>
+<section class="band alt" id="cart"><div class="wrap">
+<h2><small>Step one of two</small>Your trolley</h2>
+<p class="intro">This list sits in your browser and has gone nowhere yet. Adjust the counts, drop anything you have thought better of, then move on to the order form.</p>
+<div id="bk-clear" class="bk-empty">
+<h3>Nothing in the trolley yet</h3>
+<p>Pick a shelf and start from the volume rather than the picture: the litre figure sits on every tag, and it is the number that decides whether the week fits.</p>
+<p><a class="btn" href="#cabin">Cabin and check-in</a> <a class="btn2" href="#backpacks">Backpacks</a> <a class="btn2" href="#handbags">Handbags and totes</a></p>
+</div>
+<div id="bk-filled" class="bk-off">
+<div id="bk-lines"></div>
+<div class="sums">
+<div class="row"><span>Units in the trolley</span><span class="bk-unit-count">0</span></div>
+<div class="row"><span>Delivery</span><span>Quoted by email once we have your postcode</span></div>
+<div class="row grand"><strong>Order total for the bags</strong><span id="bk-all">$0.00</span></div>
+<p class="small">This total covers the bags only. Nothing is charged on this site; we reply with the delivery figure and the full amount before anything is settled.</p>
+<p><a class="btn" href="#checkout">Go to the order form</a></p>
+</div>
+</div>
+</div></section>
+<section class="band" id="checkout"><div class="wrap">
+<h2><small>Step two of two</small>Send an order request</h2>
+<p class="intro">This form mails your trolley over as an <strong>order request</strong>. Nothing is charged at any point: no card field sits on this page and there is no payment step to reach. We answer by email with the bags in stock, the delivery figure for your postcode and a total, and the decision comes after that.</p>
+<div class="duo">
+<div>
+<h3>Your order</h3>
+<div id="bk-summary"></div>
+<div class="sums">
+<div class="row"><span>Units</span><span class="bk-unit-count">0</span></div>
+<div class="row"><span>Delivery</span><span>Quoted in our reply</span></div>
+<div class="row grand"><strong>Total for the bags</strong><span id="bk-order-total">$0.00</span></div>
+</div>
+<p class="small">Sending this form is an offer to buy and not a completed sale. Answer our reply to confirm, to alter something, or leave it there. Nothing is owed either way.</p>
+</div>
+<form action="https://formsubmit.co/orders@bagskart.com" method="post" class="form">
+<input type="hidden" name="_subject" value="BagsKart order request">
+<input type="hidden" name="_next" value="">
+<input type="hidden" name="_captcha" value="false">
+<input type="hidden" name="_template" value="table">
+<input type="hidden" id="bk-detail" name="order" value="">
+<div class="hp"><input type="text" name="_honey" tabindex="-1" autocomplete="off" aria-hidden="true"></div>
+<p class="f"><label for="bk-name">Name (needed)</label><input type="text" id="bk-name" name="name" autocomplete="name"></p>
+<p class="f"><label for="bk-mail">Email (needed)</label><input type="email" id="bk-mail" name="email" autocomplete="email"></p>
+<p class="f wide"><label for="bk-addr">Delivery address</label><textarea id="bk-addr" name="address" rows="3" autocomplete="street-address"></textarea></p>
+<p class="f"><label for="bk-town">Town or city</label><input type="text" id="bk-town" name="town" autocomplete="address-level2"></p>
+<p class="f"><label for="bk-state">State</label><input type="text" id="bk-state" name="state" autocomplete="address-level1"></p>
+<p class="f"><label for="bk-post">Postcode</label><input type="text" id="bk-post" name="postcode" autocomplete="postal-code" inputmode="numeric"></p>
+<p class="f wide"><label for="bk-msg">Anything we should know</label><textarea id="bk-msg" name="message" rows="4"></textarea><small class="small">Empty trolley, or scripts turned off? List the bags, their litres and the counts in here instead.</small></p>
+<button type="submit" class="send">Send the order request</button>
+<p class="small wide">Pressing the button hands your message to FormSubmit, an email forwarding service, which relays it to <a href="mailto:orders@bagskart.com">orders@bagskart.com</a>. Nothing is filed as an order there, no account is opened, and no money moves.</p>
+<noscript><p class="small wide">JavaScript is off, so the order summary above cannot be filled in and the hidden order field will be empty. The form still works: describe the bags, their litre sizes and the quantities in the message box and send it.</p></noscript>
+</form>
+</div>
+</div></section>
+</main>
+<footer class="foot"><div class="wrap">
+<p><b>BagsKart</b> — bags and luggage, shipped across the United States. Orders are requests by email; no payment is taken on this site. <a href="mailto:orders@bagskart.com">orders@bagskart.com</a> · © 2026 BagsKart</p>
+<details><summary>Legal — privacy and terms</summary>
+<p><b>Privacy.</b> This shop is a set of static files: no analytics, no cookies, no third-party scripts. The trolley lives in one key in your browser's local storage, on your device alone; we cannot see it. Only the order form leaves, when you press the button: FormSubmit relays it as an email to orders@bagskart.com. We keep those emails only as long as the order needs and never share the address.</p>
+<p><b>Terms.</b> Sending the form is an offer to buy, not a completed sale; nothing is charged on this site and no contract exists until our reply confirms the bags, delivery and total. Prices are US dollars for the bag alone; volumes are rounded down. Fourteen days from arrival to return a bag unused and tagged. No repairs, fitting, personalisation, credit or shipping outside the United States. Nothing here limits your rights under US consumer law.</p>
+</details>
+</div><details id="bk-credits"><summary>Photograph credits</summary><p>Every picture is an openly licensed photograph, re-cropped for this page; attribution where the licence asks for it. The other 10 photographs are CC0 or public domain.</p><ul><li><b>leather-grain-tile.webp</b> by Horia Varlan via openverse, CC BY 4.0. <a href="https://www.flickr.com/photos/10361931@N06/4268924216" rel="nofollow noopener">source</a></li><li><b>grey-soft-panel.webp</b> by joeymanley via openverse, CC BY-SA 4.0. <a href="https://www.flickr.com/photos/94055174@N00/4769447209" rel="nofollow noopener">source</a></li><li><b>case-corner-detail.webp</b> by joeymanley via openverse, CC BY-SA 4.0. <a href="https://www.flickr.com/photos/94055174@N00/4769447209" rel="nofollow noopener">source</a></li><li><b>lime-softside.webp</b> by simbiosc via openverse, CC BY-SA 4.0. <a href="https://www.flickr.com/photos/46950055@N02/26078356356" rel="nofollow noopener">source</a></li><li><b>zip-pull-detail.webp</b> by simbiosc via openverse, CC BY-SA 4.0. <a href="https://www.flickr.com/photos/46950055@N02/26078356356" rel="nofollow noopener">source</a></li></ul></details></footer>
+<script>
+(function () {
+"use strict";
+var KEY = "bagskart-trolley";
+function load() {
+try {
+var raw = window.localStorage.getItem(KEY);
+var v = raw ? JSON.parse(raw) : [];
+return Array.isArray(v) ? v.filter(function (r) {
+return r && r.id && typeof r.rate === "number" && r.n > 0;
+}) : [];
+} catch (e) { return []; }
+}
+function save(rows) {
+try { window.localStorage.setItem(KEY, JSON.stringify(rows)); } catch (e) {}
+paint();
+}
+function money(cents) {
+var c = Math.round(cents), dollars, rem, s, parts = [];
+dollars = Math.floor(c / 100);
+rem = c % 100;
+s = String(dollars);
+while (s.length > 3) { parts.unshift(s.slice(-3)); s = s.slice(0, -3); }
+parts.unshift(s);
+return "$" + parts.join(",") + "." + (rem < 10 ? "0" + rem : String(rem));
+}
+function units(rows) {
+var t = 0, i;
+for (i = 0; i < rows.length; i++) t += rows[i].n;
+return t;
+}
+function total(rows) {
+var t = 0, i;
+for (i = 0; i < rows.length; i++) t += rows[i].rate * rows[i].n;
+return t;
+}
+function add(btn) {
+var rows = load(), i, d = btn.dataset;
+for (i = 0; i < rows.length; i++) {
+if (rows[i].id === d.sku) { rows[i].n += 1; save(rows); return; }
+}
+rows.push({
+id: d.sku,
+title: d.name,
+rate: parseInt(d.price, 10),
+vol: parseInt(d.vol, 10) || 0,
+shot: d.img,
+alt: d.alt || d.name,
+n: 1
+});
+save(rows);
+}
+function el(tag, cls, text) {
+var e = document.createElement(tag);
+if (cls) e.className = cls;
+if (text !== undefined) e.textContent = text;
+return e;
+}
+function shotOf(r) {
+var shot = el("div", "bk-stub-shot");
+var im = new Image();
+im.src = r.shot;
+im.alt = r.alt;
+im.width = 88; im.height = 110; im.loading = "lazy"; im.decoding = "async";
+shot.appendChild(im);
+return shot;
+}
+function drawCart(host, rows) {
+host.textContent = "";
+rows.forEach(function (r, idx) {
+var line = el("div", "bk-stub");
+line.setAttribute("data-line", r.id);
+line.appendChild(shotOf(r));
+var mid = el("div");
+mid.appendChild(el("p", "bk-stub-name", r.title));
+mid.appendChild(el("p", "bk-stub-meta",
+(r.vol ? r.vol + " L · " : "") + money(r.rate) + " each"));
+line.appendChild(mid);
+var end = el("div", "bk-stub-end");
+var lab = el("label", "bk-sr", "Number of " + r.title);
+lab.setAttribute("for", "bk-q-" + idx);
+end.appendChild(lab);
+var q = document.createElement("input");
+q.type = "number"; q.className = "bk-pieces"; q.min = "1"; q.max = "99";
+q.step = "1"; q.value = String(r.n); q.id = "bk-q-" + idx;
+q.addEventListener("change", function () { setQty(r.id, q.value); });
+end.appendChild(q);
+end.appendChild(el("span", "bk-line", money(r.rate * r.n)));
+var rm = el("button", "bk-remove", "Remove");
+rm.type = "button";
+rm.setAttribute("aria-label", "Remove " + r.title + " from the trolley");
+rm.addEventListener("click", function () { drop(r.id); });
+end.appendChild(rm);
+line.appendChild(end);
+host.appendChild(line);
+});
+}
+function drawSummary(host, rows) {
+host.textContent = "";
+rows.forEach(function (r) {
+var line = el("div", "bk-sline");
+line.appendChild(shotOf(r));
+var mid = el("div");
+mid.appendChild(el("p", "bk-stub-name", r.title));
+mid.appendChild(el("p", "bk-stub-meta",
+(r.vol ? r.vol + " L · " : "") + r.n + " × " + money(r.rate)));
+line.appendChild(mid);
+var end = el("div", "bk-stub-end");
+end.appendChild(el("span", "bk-line", money(r.rate * r.n)));
+line.appendChild(end);
+host.appendChild(line);
+});
+}
+function orderText(rows) {
+var out = [], i, r;
+if (!rows.length) return "";
+out.push("ORDER REQUEST FROM THE BAGSKART TROLLEY");
+out.push("");
+for (i = 0; i < rows.length; i++) {
+r = rows[i];
+out.push((i + 1) + ". " + r.title + " [" + r.id + "]" +
+(r.vol ? " — " + r.vol + " L" : ""));
+out.push("   quantity " + r.n + " at " + money(r.rate) +
+" each = " + money(r.rate * r.n));
+}
+out.push("");
+out.push("Units in the trolley: " + units(rows));
+out.push("Order total: " + money(total(rows)));
+out.push("Nothing has been charged. This is a request for the shop to confirm.");
+return out.join("\n");
+}
+function setQty(id, raw) {
+var n = parseInt(raw, 10), rows = load(), i;
+if (!(n > 0)) return;
+if (n > 99) n = 99;
+for (i = 0; i < rows.length; i++) {
+if (rows[i].id === id) { rows[i].n = n; break; }
+}
+save(rows);
+}
+function drop(id) {
+save(load().filter(function (r) { return r.id !== id; }));
+}
+function paint() {
+var rows = load(), n = units(rows), sum = total(rows), i;
+var badges = document.querySelectorAll("#bk-howmany");
+for (i = 0; i < badges.length; i++) badges[i].textContent = String(n);
+var cartHost = document.getElementById("bk-lines");
+if (cartHost) drawCart(cartHost, rows);
+var sumHost = document.getElementById("bk-summary");
+if (sumHost) drawSummary(sumHost, rows);
+var t = document.getElementById("bk-all");
+if (t) t.textContent = money(sum);
+var ot = document.getElementById("bk-order-total");
+if (ot) ot.textContent = money(sum);
+var uc = document.querySelectorAll(".bk-unit-count");
+for (i = 0; i < uc.length; i++) uc[i].textContent = String(n);
+var det = document.getElementById("bk-detail");
+if (det) {
+var text = orderText(rows);
+det.value = text;
+det.setAttribute("value", text);
+}
+var empty = document.getElementById("bk-clear");
+var full = document.getElementById("bk-filled");
+if (empty) empty.className = rows.length ? "bk-empty bk-off" : "bk-empty";
+if (full) full.className = rows.length ? "" : "bk-off";
+}
+function boot() {
+var btns = document.querySelectorAll(".bk-pick"), i;
+for (i = 0; i < btns.length; i++) {
+(function (b) {
+b.addEventListener("click", function () {
+add(b);
+b.setAttribute("data-added", "1");
+window.setTimeout(function () { b.removeAttribute("data-added"); }, 900);
+});
+})(btns[i]);
+}
+var nxt = document.querySelector('input[name="_next"]');
+if (nxt) nxt.value = location.href.split(/[?#]/)[0] + "?sent=1";
+if (/(?:^\?|&)sent=1(?:&|$)/.test(location.search)) {
+var sent = document.getElementById("bk-sent");
+if (sent) { sent.hidden = false; sent.scrollIntoView(); }
+}
+paint();
+}
+window.addEventListener("storage", function (e) {
+if (e.key === KEY) paint();
+});
+if (document.readyState === "loading") {
+document.addEventListener("DOMContentLoaded", boot);
+} else {
+boot();
+}
+})();
+</script>
+</body>
+</html>
